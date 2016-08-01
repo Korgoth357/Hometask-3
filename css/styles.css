@@ -1,40 +1,85 @@
-.padded {
-    padding-left: 3em;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h1,
-div {
-    width: 50%;
+body {
+    width: 90%;
     margin: auto;
     font-family: Tahoma, sans-serif;
 }
 
-h1 {
-    display: inline;
-    text-transform: uppercase;
+header,
+footer {
+    margin: 40px 0px 40px 0px;
+}
+
+header a {
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    border: 1px white;
+    color: #fefefe;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+footer a {
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    border: 1px white;
+    color: #fefefe;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: black;
+}
+
+header nav,
+footer nav {
+    height: 40px;
+    background-color: #5f5a5a;
+}
+
+a span {
+    vertical-align: middle;
+}
+
+.sidebar a {
+    display: block;
+    width: 240px;
+    height: 40px;
+    border: 1px white;
+    color: #0f0f0f;
+    text-align: left;
+    vertical-align: middle;
+    text-decoration: none;
 }
 
 img {
     display: block;
-    margin: auto;
-    padding: 1em 0;
+    margin-left: 50px;
+    margin-right: 0px;
+    height: 450px;
+    padding: 1px;
+    border: 5px black;
 }
 
-span {
-    color: #262626;
-    font-size: 1em;
+article {
+    width: 70%;
 }
 
-hr {
-    display: block;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+.sidebar, article {
+    float: left;
 }
 
-h3 {
-    font-weight: bold;
-}
-
-a {
-    font-style: italic;
+footer {
+    width: 100%;
+    display: inline-block;
+    float:bottom;
 }
